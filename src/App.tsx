@@ -36,6 +36,7 @@ const App = () => {
         </GridItem>
       </Show>
       <GridItem area='main'>
+        {/* <GameHeading gameQuery={gameQuery}/> */}
         <Flex paddingLeft={2} marginBottom={5}>
           <Box marginRight={5}>
           <PlatformSelector selectedPlatform={gameQuery.platform} onSelectPlatform={(platform)=> setGameQuery({...gameQuery, platform})}/>
